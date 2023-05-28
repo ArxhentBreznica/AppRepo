@@ -1,0 +1,14 @@
+[
+    {
+      "Architecture": "X64",
+            "Description": "Windows Virtual Desktop is a comprehensive desktop and app virtualization service running in the cloud. It’s the only virtual desktop infrastructure (VDI) that delivers simplified management, multi-session Windows 10, optimizations for Office 365 ProPlus, and support for Remote Desktop Services (RDS) environments. Deploy and scale your Windows desktops and apps on Azure in minutes, and get built-in security and compliance features.",
+      "Manufacturer": "Microsoft Corporation",
+      "ProductName": "Remote Desktop",
+      "IconURL": "https://fnrzk06i2w.azurewebsites.net/rest/v2/geticon?iconhash=9qZa9pbzpcgKSgFfQMV1rNAe2",
+      "PSInstall": "Execute-MSI -Path \"$dirFiles/RemoteDesktop_1.2.4240.0_x64.msi\" -Parameters \"/qn ALLUSERS=2 REBOOT=REALLYSUPPRESS\"",
+      "PSPostInstall": "",
+      "PSPreInstall": "",
+      "PSUninstall": "Execute-MSI -Action \"Uninstall\" -Path \"{6C651C03-2F30-4123-82D1-738907961A01}\" -Parameters \"/qn ALLUSERS=2 REBOOT=REALLYSUPPRESS\"",
+      "ShortName": "Remotedesktop"
+    }
+  ]
