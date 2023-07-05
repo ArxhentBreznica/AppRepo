@@ -1,0 +1,7 @@
+7zip.7zip
+Notepad++.Notepad++
+RProject.R
+Posit.RStudio
+dotPDNLLC.paintdotnet
+Adobe.Acrobat.Reader.64-bit
+Zoom.Zoom
